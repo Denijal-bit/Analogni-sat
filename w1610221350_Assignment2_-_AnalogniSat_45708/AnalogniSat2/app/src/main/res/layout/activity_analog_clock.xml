@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.analognisat2.MainActivity">
+
+    <com.example.analognisat2.AnalogClock
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:background="@android:color/holo_blue_dark"
+        android:backgroundTint="@color/teal_200"
+        android:backgroundTintMode="src_in"
+        android:gravity="top"
+        android:hapticFeedbackEnabled="true"
+        android:padding="20dp"
+        android:textSize="50dp"
+        app:backgroundColor="@android:color/holo_blue_light" />
+</LinearLayout>

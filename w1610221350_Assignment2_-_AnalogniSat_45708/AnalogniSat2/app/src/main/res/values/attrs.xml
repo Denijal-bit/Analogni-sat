@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AnalogClock">
+        <attr name="exampleString" format="string" />
+        <attr name="exampleDimension" format="dimension" />
+        <attr name="exampleColor" format="color" />
+        <attr name="exampleDrawable" format="color|reference" />
+        <attr name="backgroundColor" format="color"/>
+        <attr name="width" format="integer"/>
+        <attr name="radius" format="integer" />
+        <attr name="android:hand_hour" format="integer"/>
+        <attr name="android:hand_minute" format="integer"/>
+        <attr name="handTruncation" format="integer"/>
+        <attr name="hourHandTruncation" format="integer"/>
+
+
+    </declare-styleable>
+
+</resources>
